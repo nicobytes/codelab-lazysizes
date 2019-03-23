@@ -50,6 +50,19 @@
 <img data-src="assets/images/flower6.jpg" class="lazyload"/>
 ```
 
+# 6. Css
+
+```
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 1000ms;
+}
+```
+
 ## 5. Iframe
 
 ```
