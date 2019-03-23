@@ -19,17 +19,52 @@ SPDX-License-Identifier: Apache-2.0
         margin: 30px auto;
         border: 1px solid black;
       }
+      .lazyload,
+      .lazyloading {
+      	opacity: 0;
+      }
+      .lazyloaded {
+      	opacity: 1;
+      	transition: opacity 1000ms;
+      }
     </style>  
 </head>
   <body>
     <h1>Foobar Flowershop</h1>
     <!-- Images Start -->
-    <img src="assets/images/flower1.jpg"/>
-    <img src="assets/images/flower2.jpg"/>
-    <img src="assets/images/flower3.png"/>
-    <img src="assets/images/flower4.png"/>
-    <img src="assets/images/flower5.jpg"/>
-    <img src="assets/images/flower6.jpg"/>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <img data-src="assets/images/flower1.jpg" class="lazyload"/>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <img data-src="assets/images/flower2.jpg" class="lazyload"/>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <img data-src="assets/images/flower3.png" class="lazyload"/>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <img data-src="assets/images/flower4.png" class="lazyload"/>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <img data-src="assets/images/flower5.jpg" class="lazyload"/>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sint illum eum nostrum? Suscipit officiis saepe eum reprehenderit, nesciunt ratione eius ut dolorum deserunt deleniti omnis alias. Id, similique ab!</p>
+    <img data-src="assets/images/flower6.jpg" class="lazyload"/>
+    <hr />
+    <iframe
+      frameborder="0"
+      class="lazyload"
+      allowfullscreen
+      data-src="//www.youtube.com/embed/ZfV-aYdU4uE">
+    </iframe>
     <!-- Images End -->
+
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js"></script>
   </body>
 </html>
